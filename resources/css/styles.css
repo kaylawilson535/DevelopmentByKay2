@@ -1,0 +1,116 @@
+body{
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFACAC;
+    margin: 0px;
+}
+
+main{
+
+}
+p{
+    font-weight: 600;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+a{
+    color: #FFACAC;
+}
+h4{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*********** Header ***********/
+header{
+    background-color: #FFACAC;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h2{
+    font-size: 10rem;
+    margin: 0px;
+    font-weight: lighter;
+}
+header p{
+    font-size: 1rem;
+    margin: 0px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*On content pages*/
+header h3{
+    font-size: 3rem;
+}
+
+/*********** My Expertise Navigation ***********/
+
+#my-expertise{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10% 3%;
+}
+
+.expertise-1, .expertise-2, .expertise-3{
+    display: inline-block;
+    width: 25%;
+    padding: 3%;
+}
+
+#my-expertise h3{
+    padding-bottom: 20px;
+}
+
+
+/*********** Lesson Cards ***********/
+
+#web-lessons, #mobile-lessons, #self-lessons{
+    width: 80%;
+    margin: 0px auto 300px;
+    text-align: center;
+
+}
+
+#web-lessons div, #mobile-lessons div, #self-lessons div{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 50px 90px;
+    width: 30%;
+}
+
+#web-lessons h2, #mobile-lessons h2, #self-lessons h2{
+    background-color: #FFACAC;
+    color: white;
+    font-size: 3rem;
+    padding: 2%;
+}
+
+#web-lessons i, #mobile-lessons i, #self-lessons i{
+    padding-top: 50px;
+}
+
+.lesson-card{
+   height: 300px; 
+   width: 100px;
+}
+
+ul{
+    padding-top: 20px;
+    text-align: left;
+}
+
+/*********** Footer ***********/
+
+footer{
+    background-color: #FFACAC;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    padding: 1%;
+}
+
