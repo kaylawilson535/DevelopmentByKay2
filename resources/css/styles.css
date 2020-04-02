@@ -1,194 +1,116 @@
-/*********************** Default Tags ***********************/
 body{
-    font-family: "Montserrat", sans-serif;
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFACAC;
+    margin: 0px;
+}
+
+main{
+
+}
+p{
+    font-weight: 600;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+a{
+    color: #FFACAC;
+}
+h4{
+    margin-top: 50px;
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-}
-p{
-    font-family: 'Montserrat', sans-serif;
+/*********** Header ***********/
+header{
+    background-color: #FFACAC;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-/*********************** Headings ***********************/
-
-.big-heading{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
+header h2{
+    font-size: 10rem;
+    margin: 0px;
+    font-weight: lighter;
 }
-  
-.section-heading{
+header p{
+    font-size: 1rem;
+    margin: 0px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*On content pages*/
+header h3{
     font-size: 3rem;
-    line-height: 1.5;
 }
 
-/*********************** Containers ***********************/
+/*********** My Expertise Navigation ***********/
 
-.container-fluid{
-    padding: 7% 15%;
+#my-expertise{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10% 3%;
 }
 
-/*********************** Sections ***********************/
-
-.colored-section{
-    background-color: #ff4c68;
-    color: #fff;
+.expertise-1, .expertise-2, .expertise-3{
+    display: inline-block;
+    width: 25%;
+    padding: 3%;
 }
 
-.white-section{
-    background-color: white;
+#my-expertise h3{
+    padding-bottom: 20px;
 }
 
- /************************ Nav Bar ************************/
 
-.navbar-brand{
-    color: #fff !important;
+/*********** Lesson Cards ***********/
+
+#web-lessons, #mobile-lessons, #self-lessons{
+    width: 80%;
+    margin: 0px auto 300px;
+    text-align: center;
+
 }
 
-.navbar-expand-lg{
-    padding: 0 0 4.5rem;
+#web-lessons div, #mobile-lessons div, #self-lessons div{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 50px 90px;
+    width: 30%;
 }
 
- .navbar-brand{
-     font-family: ubuntu;
-     font-size: 2.5rem;
-     font-weight: bold;
-     float: left;
- }
+#web-lessons h2, #mobile-lessons h2, #self-lessons h2{
+    background-color: #FFACAC;
+    color: white;
+    font-size: 3rem;
+    padding: 2%;
+}
 
- .nav-item{
-    padding: 0 18px;
- }
+#web-lessons i, #mobile-lessons i, #self-lessons i{
+    padding-top: 50px;
+}
 
- .nav-link{
-     font-size: 1.2rem;
-     font-family:  "Montserrat-light", sans-serif;
- }
+.lesson-card{
+   height: 300px; 
+   width: 100px;
+}
 
- /*********************** Download Button ***********************/
-
- .download-button{
-     margin: 5% 3% 5% 0%;
- }
-
-/*********************** Title Section ***********************/
-
-#title .container-fluid{
-    padding: 3% 15% 7%;
+ul{
+    padding-top: 20px;
     text-align: left;
 }
 
- /*********************** Title Image ***********************/
+/*********** Footer ***********/
 
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
+footer{
+    background-color: #FFACAC;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    padding: 1%;
 }
 
-/*********************** Features ***********************/
-#features{
-    position: relative;
-}
-
-.feature-title{
-    font-size: 1.5rem;
-}
-
-.feature-column{
-    padding: 5%;
-}
-
-.features-icons{
-    color: #ef8172;
-    margin-bottom: 1rem;
-}
-
-.features-icons:hover{
-    color: #ff4c68
-}
-
-/*********************** Testimonials ***********************/
-
-#testimonials{ 
-    background-color: #ef8172;
-}
-
-.testimonial-text{
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-.testimonial-image{
-    border-radius: 100%;
-    width: 10%;
-    margin: 20px;
-}
-
-#press{
-    background-color: #ef8172;
-    padding-bottom: 3%;
-}
-
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-/*********************** Pricing ***********************/
-
-#pricing{
-    margin: 7%;
-}
-
-.price-text{
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-.pricing-column{
-    padding: 3% 2%;
-}
-
-@media(max-width: 992px){
-
-    .iphone-image{
-        transform: rotate(0);
-        position: static;
-    }
-
-    #title{
-        text-align: center;
-    }
-}
-
-/*********************** Call to Action ***********************/
-
-.cta-text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: black;
-    line-height: 1.5;
-    font-size: 3.5rem;
-}
-
-/*********************** Footer ***********************/
-
-.footer-download-btn{
-    margin: 0% 2%;
-}
-
-#footer{
-    background-color: white;
-    color: #8f8f8f;
-    font-size: .5rem;
-}
-
-.footer-social{
-    margin: 1%;
-    color: #3f3f3f;
-}
