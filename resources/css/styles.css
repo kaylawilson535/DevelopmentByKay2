@@ -42,6 +42,10 @@ header p{
     text-align: center;
 }
 
+.eofe-page{
+    font-size: 5rem;
+}
+
 /*On content pages*/
 header h3{
     font-size: 3rem;
