@@ -108,6 +108,12 @@ ul{
     text-align: left;
 }
 
+.about-me{
+    border-radius: 100%;
+    width: 20%;
+    height: auto;
+}
+
 /*********** Footer ***********/
 
 footer{
